@@ -67,7 +67,6 @@ public class Controller
 
     public void convertBases(ActionEvent actionEvent)
     {
-        System.out.println("Button clicked");
         String inputString = inputInput.getText();
         String inputBaseString = (String)choiceInput.getValue();
         String outputBaseString = (String)choiceBase.getValue();
@@ -110,26 +109,21 @@ public class Controller
     public void copyDecimal(ActionEvent actionEvent)
     {
         clipCopy(outputDecimal.getText());
-        System.out.println("Decimal copied");
     }
     public void copyBinary(ActionEvent actionEvent)
     {
-        System.out.println("Binary copied");
         clipCopy(outputBinary.getText());
     }
     public void copyHex(ActionEvent actionEvent)
     {
-        System.out.println("Hex copied");
         clipCopy(outputHex.getText());
     }
     public void copyOctal(ActionEvent actionEvent)
     {
-        System.out.println("Octal copied");
         clipCopy(outputOctal.getText());
     }
     public void copyBase(ActionEvent actionEvent)
     {
-        System.out.println("Copied arbitrary base");
         clipCopy(outputBase.getText());
     }
 
