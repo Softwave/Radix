@@ -15,7 +15,7 @@ public class Main extends Application
         Parent root = FXMLLoader.load(getClass().getResource("Radix.fxml"));
         primaryStage.setTitle("Radix");
         Scene scene = new Scene(root, 384, 608);
-        scene.getStylesheets().add(getClass().getResource("breeze.css").toExternalForm());
+        //scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         primaryStage.setScene(scene);
         //primaryStage.setScene(new Scene(root, 384, 608));
 
